@@ -12,7 +12,11 @@ HERO
 **********************************
 */
 .hero {
-    
+    background-image: url(../assets/assets/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    position: absolut
 }
 
 
@@ -89,3 +93,9 @@ FOOTER
 
 
 
+
+.wrap {
+    width: 90%;
+    max-width: 960px
+    margin: 0 auto;
+}
