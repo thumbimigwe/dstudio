@@ -7,6 +7,23 @@ body{
 h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+
+}
+.wrap {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2% auto;
+}
+
+
+.row {
+    margin: 2%;
+    padding: 2% auto;
+}
+
+.column{
+    padding: 0% 2%;
 }
 h2{
     font-family: 'Raleway', sans-serif;
@@ -26,7 +43,9 @@ HERO
     background-image: url(../assets/assets/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    object-position: bottom;
     height: 50%;
+    color: whitesmoke
 }
 
 
@@ -123,21 +142,3 @@ FOOTER
 
 
 
-.wrap {
-    width: 90%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 2% auto;
-}
-
-
-.row {
-    margin: 2%;
-    padding: 2% auto;
-}
-
-.column{
-    padding: 0% 2%;
-    
-        
-}
