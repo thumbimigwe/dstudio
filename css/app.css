@@ -43,7 +43,7 @@ HERO
     background-image: url(../assets/assets/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    object-position: bottom;
+   
     height: 50%;
     color: whitesmoke
 }
