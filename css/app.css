@@ -1,144 +1,144 @@
-body{
-    text-align: center;
-    background-color: #ededed;
+/****************general styles***************/
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Raleway', sans-serif;
-    font-size: 150%;
+}
+body{
+    background: rgb(239,240,224);
+    overflow-x: hidden;
+
+}
+section{
+    min-height: 100%;
+}
+article{
+    min-height: 50%;
+    padding-bottom: 3%;
+}
+aside{
+    min-height: 50%;
+}
+
+/****************HOME***************/
+#home{
+    background: url(../img/h_img.jpg);
+    background-size: 100% 100%;
+    color: #fff;
+}
+.logo img{
+    margin: 10% 45% 0%;
 }
 h1{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 4%;
+}
+#home p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.icon img{
+    margin: 3% 49% 0%;
+}
+/****************ABOUT***************/
+#about h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #454545;
+    font-size: 2em;
+    margin-top: 5%;
+}
+#about p{
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    color: #454545;
+    font-size: 0.7em;
+}
+/****************SERVICES***************/
+#services{
+    background-image: url(../img/s_image.jpg);
+    background-size: 100% 100%;
+}
+#services h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 5%;
+}
+#services p{
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    color: #fff;
+    font-size: 0.7em;
+}
+/****************WHAT WE DO***************/
+#what h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #454545;
+    font-size: 2em;
+    margin-top: 5%;
+}
+#what img{
+    margin: 10% 40%;
+}
+h3{
+    text-align: center;
+    font-size: 1em;
+    color: #454545;
+    text-transform: uppercase;
+}
+#what p{
+    text-align: center;
+    font-size: 0.7em;
+    color: #454545;
+    width: 80%;
+    margin: auto;
 
 }
-.wrap {
-    width: 90%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 2% auto;
+/****************PORTFOLIO***************/
+main{
+    min-height: 100%;
 }
-
-
-.row {
-    margin: 2%;
-    padding: 2% auto;
+#port{
+    margin: 10% auto;
 }
-
-.column{
-    padding: 0% 2%;
+.thumbnail{
+    border: none;
 }
-h2{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    padding: 4%
+/****************CONTACT***************/
+#contact{
+    background-image: url(../img/c_image.jpg);
+    background-size: 100% 100%;
+    min-height: 100%;
 }
-
-
-
-
-/*
-**********************************
-HERO
-**********************************
-*/
-.hero {
-    background-image: url(../assets/assets/h_img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-    height: 50%;
-    color: whitesmoke
+form{
+    padding: 10% 10%;
+    color: #fff;
 }
-
-
-
-
-
-
-/*
-**********************************
-ABOUT
-**********************************
-*/
-.about {
-    
+form input{
+    border: 1px solid #fff;
+    background: none !important;
+    font-style: italic;
+    color: #fff !important;
 }
-
-
-
-
-
-/*
-**********************************
-SERVICES
-**********************************
-*/
-.services {
-    background-image: url(../assets/assets/s_image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 4% ;
-    color: whitesmoke;
-    
+textarea{
+    background: none ;
+    color: #fff;
 }
-
-
-
-
-
-
-
-/*
-**********************************
-WHAT WE DO
-**********************************
-*/
-.what {
-    padding-right: 20px;
+/****************FOOTER***************/
+footer{
+    min-height: 30%;
 }
-
-
-
-
-
-
-/*
-**********************************
-PORFOLIO
-**********************************
-*/
-.portfolio {
-    
+#social{
+    margin: 5% auto;
 }
-
-
-
-
-
-
-/*
-**********************************
-CONTACT
-**********************************
-*/
-.contact {
-    
+h6{
+    text-align: center;
+    text-transform: uppercase;
+    color: #454545;
 }
-
-
-
-
-
-
-/*
-**********************************
-FOOTER
-***********************************/
-.footer {
-    
-}
-
-
-
-
-
-
-
