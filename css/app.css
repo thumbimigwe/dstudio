@@ -56,3 +56,47 @@ h1{
     color: #454545;
     font-size: 0.7em;
 }
+/****************SERVICES***************/
+#services{
+    background-image: url(../img/s_image.jpg);
+    background-size: 100% 100%;
+}
+#services h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 5%;
+}
+#services p{
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    color: #fff;
+    font-size: 0.7em;
+}
+/****************WHAT WE DO***************/
+#what h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #454545;
+    font-size: 2em;
+    margin-top: 5%;
+}
+#what img{
+    margin: 10% 40%;
+}
+h3{
+    text-align: center;
+    font-size: 1em;
+    color: #454545;
+    text-transform: uppercase;
+}
+#what p{
+    text-align: center;
+    font-size: 0.7em;
+    color: #454545;
+    width: 80%;
+    margin: auto;
+
+}
