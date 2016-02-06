@@ -130,3 +130,27 @@ textarea{
     background: none ;
     color: #fff;
 }
+/****************FOOTER***************/
+footer{
+    min-height: 30%;
+}
+#social{
+    margin: 5% auto;
+}
+h6{
+    text-align: center;
+    text-transform: uppercase;
+    color: #454545;
+}
+/****************FOOTER***************/
+footer{
+    min-height: 30%;
+}
+#social{
+    margin: 5% auto;
+}
+h6{
+    text-align: center;
+    text-transform: uppercase;
+    color: #454545;
+}
