@@ -100,3 +100,33 @@ h3{
     margin: auto;
 
 }
+/****************PORTFOLIO***************/
+main{
+    min-height: 100%;
+}
+#port{
+    margin: 10% auto;
+}
+.thumbnail{
+    border: none;
+}
+/****************CONTACT***************/
+#contact{
+    background-image: url(../img/c_image.jpg);
+    background-size: 100% 100%;
+    min-height: 100%;
+}
+form{
+    padding: 10% 10%;
+    color: #fff;
+}
+form input{
+    border: 1px solid #fff;
+    background: none !important;
+    font-style: italic;
+    color: #fff !important;
+}
+textarea{
+    background: none ;
+    color: #fff;
+}
